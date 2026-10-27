@@ -1,0 +1,809 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"35 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\m.c
+[e E11004 . `uc
+SCR_DEFAULT 0
+SCR_CONFIG 1
+SCR_EVENT_MENU 2
+SCR_SET_EVENT 3
+SCR_VIEW_EVENT 4
+SCR_SET_TIME 5
+SCR_SET_DATE 6
+]
+"7 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"81 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\clcd.c
+[v _clcd_write clcd_write `(v  1 e 1 0 ]
+"104
+[v _init_clcd init_clcd `(v  1 e 1 0 ]
+"135
+[v _clcd_print clcd_print `(v  1 e 1 0 ]
+"144
+[v _clcd_putch clcd_putch `(v  1 e 1 0 ]
+"5 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\ds.c
+[v _rtc_write rtc_write `(v  1 e 1 0 ]
+"13
+[v _rtc_read rtc_read `(uc  1 e 1 0 ]
+"25
+[v _bcd_to_bin bcd_to_bin `(uc  1 e 1 0 ]
+"29
+[v _bin_to_bcd bin_to_bcd `(uc  1 e 1 0 ]
+"7 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\eeprom24.c
+[v _eeprom24_init eeprom24_init `(v  1 e 1 0 ]
+"8
+[v _eeprom24_read eeprom24_read `(uc  1 e 1 0 ]
+"14
+[v _eeprom24_write eeprom24_write `(v  1 e 1 0 ]
+"6 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\i2c.c
+[v _wait_ssp wait_ssp `(v  1 s 1 wait_ssp ]
+"12
+[v _init_i2c init_i2c `(v  1 e 1 0 ]
+"24
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+"25
+[v _i2c_rep_start i2c_rep_start `(v  1 e 1 0 ]
+"26
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+"27
+[v _i2c_write i2c_write `(v  1 e 1 0 ]
+"35
+[v _i2c_read i2c_read `(uc  1 e 1 0 ]
+"44 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\m.c
+[v _print2 print2 `(v  1 s 1 print2 ]
+"46
+[v _leap_year leap_year `(uc  1 s 1 leap_year ]
+"47
+[v _days_in_month days_in_month `(uc  1 s 1 days_in_month ]
+"48
+[v _bcd_valid bcd_valid `(uc  1 s 1 bcd_valid ]
+"49
+[v _rtc_read_all rtc_read_all `(v  1 s 1 rtc_read_all ]
+"58
+[v _rtc_write_all rtc_write_all `(v  1 s 1 rtc_write_all ]
+"65
+[v _advance_clock_one_second advance_clock_one_second `(v  1 s 1 advance_clock_one_second ]
+"85
+[v _default_events default_events `(v  1 s 1 default_events ]
+"86
+[v _save_events save_events `(v  1 s 1 save_events ]
+"87
+[v _load_events load_events `(v  1 s 1 load_events ]
+"88
+[v _rtc_has_valid_time rtc_has_valid_time `(uc  1 s 1 rtc_has_valid_time ]
+"107
+[v _init_hw init_hw `(v  1 s 1 init_hw ]
+"132
+[v _weekday_name weekday_name `(*.32Cuc  1 s 2 weekday_name ]
+"133
+[v _type_char type_char `(uc  1 s 1 type_char ]
+"134
+[v _event_matches_today event_matches_today `(uc  1 s 1 event_matches_today ]
+"135
+[v _event_is_future_today event_is_future_today `(uc  1 s 1 event_is_future_today ]
+"136
+[v _next_event_index next_event_index `(c  1 s 1 next_event_index ]
+"137
+[v _display_default display_default `(v  1 s 1 display_default ]
+"172
+[v _display_config display_config `(v  1 s 1 display_config ]
+"173
+[v _display_event_menu display_event_menu `(v  1 s 1 display_event_menu ]
+"174
+[v _display_set_event display_set_event `(v  1 s 1 display_set_event ]
+"175
+[v _display_view_event display_view_event `(v  1 s 1 display_view_event ]
+"176
+[v _display_set_time display_set_time `(v  1 s 1 display_set_time ]
+"177
+[v _display_set_date display_set_date `(v  1 s 1 display_set_date ]
+"178
+[v _display_screen display_screen `(v  1 s 1 display_screen ]
+"179
+[v _stop_alarm stop_alarm `(v  1 s 1 stop_alarm ]
+"180
+[v _check_events check_events `(v  1 s 1 check_events ]
+"181
+[v _inc_event_field inc_event_field `(v  1 s 1 inc_event_field ]
+"182
+[v _inc_datetime_field inc_datetime_field `(v  1 s 1 inc_datetime_field ]
+"183
+[v _short_key short_key `(v  1 s 1 short_key ]
+"184
+[v _long_key long_key `(v  1 s 1 long_key ]
+"185
+[v _get_key get_key `(uc  1 s 1 get_key ]
+"186
+[v _process_key process_key `(v  1 s 1 process_key ]
+"187
+[v _main main `(v  1 e 1 0 ]
+"4 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\mkp.c
+[v _init_matrix_keypad init_matrix_keypad `(v  1 e 1 0 ]
+"18
+[v _scan_key scan_key `(uc  1 e 1 0 ]
+"88
+[v _read_switches read_switches `(uc  1 e 1 0 ]
+"25714 C:/Users/prane/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc/pic18f4580.h
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S701 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"25758
+[s S710 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CANRX 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S719 . 1 `uc 1 AN10 1 0 :1:0 
+`uc 1 AN8 1 0 :1:1 
+`uc 1 CANTX 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 AN9 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S728 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S730 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S733 . 1 `S701 1 . 1 0 `S710 1 . 1 0 `S719 1 . 1 0 `S728 1 . 1 0 `S730 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES733  1 e 1 @3969 ]
+"26058
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S274 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"26700
+[s S283 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S292 . 1 `S274 1 . 1 0 `S283 1 . 1 0 ]
+[v _LATDbits LATDbits `VES292  1 e 1 @3980 ]
+"26837
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"27059
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"27281
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S95 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"27313
+[s S104 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S113 . 1 `S95 1 . 1 0 `S104 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES113  1 e 1 @3988 ]
+"27503
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S234 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"27535
+[s S243 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+[u S252 . 1 `S234 1 . 1 0 `S243 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES252  1 e 1 @3989 ]
+[s S203 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 PSPMODE 1 0 :1:4 
+`uc 1 IBOV 1 0 :1:5 
+`uc 1 OBF 1 0 :1:6 
+`uc 1 IBF 1 0 :1:7 
+]
+"27752
+[s S212 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+]
+[u S216 . 1 `S203 1 . 1 0 `S212 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES216  1 e 1 @3990 ]
+"29436
+[v _CMCON CMCON `VEuc  1 e 1 @4020 ]
+"30188
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"30413
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+"30475
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"30793
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"30800
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"32481
+[v _ACKDT ACKDT `VEb  1 e 0 @32301 ]
+"32484
+[v _ACKEN ACKEN `VEb  1 e 0 @32300 ]
+"34737
+[v _BCLIF BCLIF `VEb  1 e 0 @32011 ]
+"34875
+[v _CKE CKE `VEb  1 e 0 @32318 ]
+"36087
+[v _PEN PEN `VEb  1 e 0 @32298 ]
+"36225
+[v _RBPU RBPU `VEb  1 e 0 @32655 ]
+"36228
+[v _RC0 RC0 `VEb  1 e 0 @31760 ]
+"36231
+[v _RC1 RC1 `VEb  1 e 0 @31761 ]
+"36243
+[v _RC2 RC2 `VEb  1 e 0 @31762 ]
+"36270
+[v _RCEN RCEN `VEb  1 e 0 @32299 ]
+"36312
+[v _RD7 RD7 `VEb  1 e 0 @31775 ]
+"36318
+[v _RE0 RE0 `VEb  1 e 0 @31776 ]
+"36363
+[v _RSEN RSEN `VEb  1 e 0 @32297 ]
+"38856
+[v _SEN SEN `VEb  1 e 0 @32296 ]
+"38871
+[v _SMP SMP `VEb  1 e 0 @32319 ]
+"38901
+[v _SSPIF SSPIF `VEb  1 e 0 @31987 ]
+"39243
+[v _TRISD7 TRISD7 `VEb  1 e 0 @31919 ]
+[s S167 . 9 `uc 1 hour 1 0 `uc 1 minute 1 1 `uc 1 duration 1 2 `uc 1 type 1 3 `uc 1 weekday 1 4 `uc 1 day 1 5 `uc 1 month 1 6 `uc 1 year 1 7 `uc 1 enabled 1 8 ]
+"34 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\m.c
+[v _events events `[8]S167  1 s 72 events ]
+"35
+[v _screen screen `E11004  1 s 1 screen ]
+"36
+[v _menu_index menu_index `uc  1 s 1 menu_index ]
+[v _event_index event_index `uc  1 s 1 event_index ]
+[v _edit_field edit_field `uc  1 s 1 edit_field ]
+[v _view_index view_index `uc  1 s 1 view_index ]
+"37
+[v _ring_active ring_active `uc  1 s 1 ring_active ]
+[v _ring_event ring_event `uc  1 s 1 ring_event ]
+[v _ring_silenced ring_silenced `uc  1 s 1 ring_silenced ]
+"38
+[v _idle_ticks idle_ticks `us  1 s 2 idle_ticks ]
+[v _key_hold_ticks key_hold_ticks `us  1 s 2 key_hold_ticks ]
+[v _tick10 tick10 `us  1 s 2 tick10 ]
+"39
+[v _ring_ticks ring_ticks `ul  1 s 4 ring_ticks ]
+"40
+[v _previous_key previous_key `uc  1 s 1 previous_key ]
+[v _key_long_sent key_long_sent `uc  1 s 1 key_long_sent ]
+[v _last_trigger_min last_trigger_min `uc  1 s 1 last_trigger_min ]
+[v _last_trigger_day last_trigger_day `uc  1 s 1 last_trigger_day ]
+[v _last_trigger_month last_trigger_month `uc  1 s 1 last_trigger_month ]
+[v _last_trigger_year last_trigger_year `uc  1 s 1 last_trigger_year ]
+[s S185 . 7 `uc 1 sec 1 0 `uc 1 min 1 1 `uc 1 hour 1 2 `uc 1 wday 1 3 `uc 1 day 1 4 `uc 1 month 1 5 `uc 1 year 1 6 ]
+"41
+[v _dt dt `S185  1 s 7 dt ]
+"187
+[v _main main `(v  1 e 1 0 ]
+{
+"217
+} 0
+"186
+[v _process_key process_key `(v  1 s 1 process_key ]
+{
+[v process_key@k k `uc  1 a 1 33 ]
+} 0
+"179
+[v _stop_alarm stop_alarm `(v  1 s 1 stop_alarm ]
+{
+} 0
+"183
+[v _short_key short_key `(v  1 s 1 short_key ]
+{
+[v short_key@key key `uc  1 p 1 wreg ]
+{
+[v short_key@key key `uc  1 p 1 32 ]
+}
+} 1
+"181
+[v _inc_event_field inc_event_field `(v  1 s 1 inc_event_field ]
+{
+[v inc_event_field@delta delta `c  1 p 1 wreg ]
+[s S167 . 9 `uc 1 hour 1 0 `uc 1 minute 1 1 `uc 1 duration 1 2 `uc 1 type 1 3 `uc 1 weekday 1 4 `uc 1 day 1 5 `uc 1 month 1 6 `uc 1 year 1 7 `uc 1 enabled 1 8 ]
+[v inc_event_field@e e `*.30S167  1 a 1 31 ]
+{
+[v inc_event_field@max max `uc  1 a 1 29 ]
+[v inc_event_field@delta delta `c  1 p 1 30 ]
+}
+} 1
+"182
+[v _inc_datetime_field inc_datetime_field `(v  1 s 1 inc_datetime_field ]
+{
+[v inc_datetime_field@delta delta `c  1 p 1 wreg ]
+[v inc_datetime_field@date_mode date_mode `uc  1 p 1 6 ]
+{
+[v inc_datetime_field@delta delta `c  1 p 1 24 ]
+}
+{
+[v inc_datetime_field@max max `uc  1 a 1 23 ]
+}
+} 1
+"184
+[v _long_key long_key `(v  1 s 1 long_key ]
+{
+[v long_key@key key `uc  1 p 1 wreg ]
+{
+[v long_key@key key `uc  1 p 1 14 ]
+}
+} 1
+"185
+[v _get_key get_key `(uc  1 s 1 get_key ]
+{
+[v get_key@k k `uc  1 a 1 1 ]
+} 0
+"88 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\mkp.c
+[v _read_switches read_switches `(uc  1 e 1 0 ]
+{
+[v read_switches@detection_type detection_type `uc  1 p 1 wreg ]
+"90
+[v read_switches@key key `uc  1 s 1 key ]
+"92
+[v read_switches@detection_type detection_type `uc  1 p 1 0 ]
+"111
+} 1
+"18
+[v _scan_key scan_key `(uc  1 e 1 0 ]
+{
+"86
+} 0
+"107 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\m.c
+[v _init_hw init_hw `(v  1 s 1 init_hw ]
+{
+"117
+{
+"119
+[v init_hw@s s `uc  1 a 1 18 ]
+[v init_hw@h h `uc  1 a 1 22 ]
+"121
+{
+"122
+[v init_hw@h12 h12 `uc  1 a 1 20 ]
+"123
+[v init_hw@pm pm `uc  1 a 1 21 ]
+[v init_hw@h24 h24 `uc  1 a 1 19 ]
+"127
+}
+"128
+}
+"131
+} 0
+"58
+[v _rtc_write_all rtc_write_all `(v  1 s 1 rtc_write_all ]
+{
+"62
+} 0
+"5 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\ds.c
+[v _rtc_write rtc_write `(v  1 e 1 0 ]
+{
+[v rtc_write@reg reg `uc  1 p 1 wreg ]
+[v rtc_write@value value `uc  1 p 1 10 ]
+"7
+[v rtc_write@reg reg `uc  1 p 1 11 ]
+"12
+} 1
+"29
+[v _bin_to_bcd bin_to_bcd `(uc  1 e 1 0 ]
+{
+[v bin_to_bcd@value value `uc  1 p 1 wreg ]
+"31
+[v bin_to_bcd@value value `uc  1 p 1 9 ]
+"32
+} 1
+"49 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\m.c
+[v _rtc_read_all rtc_read_all `(v  1 s 1 rtc_read_all ]
+{
+"57
+} 0
+"48
+[v _bcd_valid bcd_valid `(uc  1 s 1 bcd_valid ]
+{
+[v bcd_valid@b b `uc  1 p 1 wreg ]
+[v bcd_valid@max max `uc  1 p 1 7 ]
+[v bcd_valid@v v `uc  1 a 1 11 ]
+[v bcd_valid@b b `uc  1 p 1 8 ]
+} 1
+"88
+[v _rtc_has_valid_time rtc_has_valid_time `(uc  1 s 1 rtc_has_valid_time ]
+{
+"90
+[v rtc_has_valid_time@sec sec `uc  1 a 1 13 ]
+"91
+[v rtc_has_valid_time@min min `uc  1 a 1 11 ]
+"92
+[v rtc_has_valid_time@hour hour `uc  1 a 1 12 ]
+"93
+[v rtc_has_valid_time@day day `uc  1 a 1 8 ]
+"94
+[v rtc_has_valid_time@month month `uc  1 a 1 9 ]
+"95
+[v rtc_has_valid_time@year year `uc  1 a 1 10 ]
+"106
+} 0
+"13 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\ds.c
+[v _rtc_read rtc_read `(uc  1 e 1 0 ]
+{
+[v rtc_read@reg reg `uc  1 p 1 wreg ]
+"15
+[v rtc_read@value value `uc  1 a 1 4 ]
+"16
+[v rtc_read@reg reg `uc  1 p 1 3 ]
+"24
+} 1
+"25
+[v _bcd_to_bin bcd_to_bin `(uc  1 e 1 0 ]
+{
+[v bcd_to_bin@value value `uc  1 p 1 wreg ]
+"27
+[v bcd_to_bin@value value `uc  1 p 1 6 ]
+"28
+} 1
+"87 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\m.c
+[v _load_events load_events `(v  1 s 1 load_events ]
+{
+[v load_events@i i `uc  1 a 1 10 ]
+[v load_events@a a `uc  1 a 1 9 ]
+} 0
+"8 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\eeprom24.c
+[v _eeprom24_read eeprom24_read `(uc  1 e 1 0 ]
+{
+[v eeprom24_read@address address `uc  1 p 1 wreg ]
+"9
+[v eeprom24_read@value value `uc  1 a 1 4 ]
+"10
+[v eeprom24_read@address address `uc  1 p 1 3 ]
+"13
+} 1
+"25 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\i2c.c
+[v _i2c_rep_start i2c_rep_start `(v  1 e 1 0 ]
+{
+} 0
+"35
+[v _i2c_read i2c_read `(uc  1 e 1 0 ]
+{
+"37
+[v i2c_read@data data `uc  1 a 1 2 ]
+"47
+} 0
+"85 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\m.c
+[v _default_events default_events `(v  1 s 1 default_events ]
+{
+[v default_events@i i `uc  1 a 1 0 ]
+} 0
+"4 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\mkp.c
+[v _init_matrix_keypad init_matrix_keypad `(v  1 e 1 0 ]
+{
+"16
+} 0
+"12 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\i2c.c
+[v _init_i2c init_i2c `(v  1 e 1 0 ]
+{
+"23
+} 0
+"104 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\clcd.c
+[v _init_clcd init_clcd `(v  1 e 1 0 ]
+{
+"133
+} 0
+"7 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\eeprom24.c
+[v _eeprom24_init eeprom24_init `(v  1 e 1 0 ]
+{
+} 0
+"178 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\m.c
+[v _display_screen display_screen `(v  1 s 1 display_screen ]
+{
+} 0
+"175
+[v _display_view_event display_view_event `(v  1 s 1 display_view_event ]
+{
+[s S167 . 9 `uc 1 hour 1 0 `uc 1 minute 1 1 `uc 1 duration 1 2 `uc 1 type 1 3 `uc 1 weekday 1 4 `uc 1 day 1 5 `uc 1 month 1 6 `uc 1 year 1 7 `uc 1 enabled 1 8 ]
+[v display_view_event@e e `*.30S167  1 a 1 16 ]
+} 0
+"176
+[v _display_set_time display_set_time `(v  1 s 1 display_set_time ]
+{
+} 0
+"174
+[v _display_set_event display_set_event `(v  1 s 1 display_set_event ]
+{
+[v display_set_event@labels labels `[9]*.32Cuc  1 s 18 labels ]
+[s S167 . 9 `uc 1 hour 1 0 `uc 1 minute 1 1 `uc 1 duration 1 2 `uc 1 type 1 3 `uc 1 weekday 1 4 `uc 1 day 1 5 `uc 1 month 1 6 `uc 1 year 1 7 `uc 1 enabled 1 8 ]
+[v display_set_event@e e `*.30S167  1 a 1 13 ]
+} 0
+"177
+[v _display_set_date display_set_date `(v  1 s 1 display_set_date ]
+{
+} 0
+"173
+[v _display_event_menu display_event_menu `(v  1 s 1 display_event_menu ]
+{
+} 0
+"137
+[v _display_default display_default `(v  1 s 1 display_default ]
+{
+"139
+[v display_default@ni ni `c  1 a 1 21 ]
+"140
+[v display_default@phase phase `us  1 a 2 17 ]
+"155
+{
+"156
+[s S167 . 9 `uc 1 hour 1 0 `uc 1 minute 1 1 `uc 1 duration 1 2 `uc 1 type 1 3 `uc 1 weekday 1 4 `uc 1 day 1 5 `uc 1 month 1 6 `uc 1 year 1 7 `uc 1 enabled 1 8 ]
+[v display_default@e e `*.30S167  1 a 1 22 ]
+"164
+}
+"171
+} 0
+"132
+[v _weekday_name weekday_name `(*.32Cuc  1 s 2 weekday_name ]
+{
+[v weekday_name@d d `uc  1 p 1 wreg ]
+[v weekday_name@n n `[8]*.32Cuc  1 s 16 n ]
+[v weekday_name@d d `uc  1 p 1 4 ]
+} 1
+"133
+[v _type_char type_char `(uc  1 s 1 type_char ]
+{
+[v type_char@t t `uc  1 p 1 wreg ]
+[v type_char@t t `uc  1 p 1 4 ]
+} 1
+"44
+[v _print2 print2 `(v  1 s 1 print2 ]
+{
+[v print2@v v `uc  1 p 1 wreg ]
+[v print2@addr addr `uc  1 p 1 9 ]
+[v print2@v v `uc  1 p 1 10 ]
+} 1
+"144 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\clcd.c
+[v _clcd_putch clcd_putch `(v  1 e 1 0 ]
+{
+[v clcd_putch@data data `Cuc  1 p 1 wreg ]
+[v clcd_putch@addr addr `uc  1 p 1 7 ]
+"146
+[v clcd_putch@data data `Cuc  1 p 1 8 ]
+"148
+} 1
+"7 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"30
+} 0
+"136 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\m.c
+[v _next_event_index next_event_index `(c  1 s 1 next_event_index ]
+{
+[v next_event_index@i i `uc  1 a 1 16 ]
+[v next_event_index@best best `c  1 a 1 13 ]
+[v next_event_index@bestmins bestmins `us  1 a 2 11 ]
+{
+[s S167 . 9 `uc 1 hour 1 0 `uc 1 minute 1 1 `uc 1 duration 1 2 `uc 1 type 1 3 `uc 1 weekday 1 4 `uc 1 day 1 5 `uc 1 month 1 6 `uc 1 year 1 7 `uc 1 enabled 1 8 ]
+[v next_event_index@e e `*.30S167  1 a 1 14 ]
+[v next_event_index@mins mins `us  1 a 2 7 ]
+}
+{
+[v next_event_index@e_514 e `*.30S167  1 a 1 15 ]
+[v next_event_index@mins_515 mins `us  1 a 2 9 ]
+}
+} 0
+"135
+[v _event_is_future_today event_is_future_today `(uc  1 s 1 event_is_future_today ]
+{
+[s S167 . 9 `uc 1 hour 1 0 `uc 1 minute 1 1 `uc 1 duration 1 2 `uc 1 type 1 3 `uc 1 weekday 1 4 `uc 1 day 1 5 `uc 1 month 1 6 `uc 1 year 1 7 `uc 1 enabled 1 8 ]
+[v event_is_future_today@e e `*.30S167  1 p 1 3 ]
+} 0
+"172
+[v _display_config display_config `(v  1 s 1 display_config ]
+{
+} 0
+"135 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\clcd.c
+[v _clcd_print clcd_print `(v  1 e 1 0 ]
+{
+[v clcd_print@data data `*.32Cuc  1 p 2 5 ]
+[v clcd_print@addr addr `uc  1 p 1 7 ]
+"142
+} 0
+"81
+[v _clcd_write clcd_write `(v  1 e 1 0 ]
+{
+[v clcd_write@byte byte `uc  1 p 1 wreg ]
+[v clcd_write@control_bit control_bit `uc  1 p 1 0 ]
+"83
+[v clcd_write@byte byte `uc  1 p 1 1 ]
+"102
+} 1
+"180 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\m.c
+[v _check_events check_events `(v  1 s 1 check_events ]
+{
+[v check_events@i i `uc  1 a 1 12 ]
+{
+[s S167 . 9 `uc 1 hour 1 0 `uc 1 minute 1 1 `uc 1 duration 1 2 `uc 1 type 1 3 `uc 1 weekday 1 4 `uc 1 day 1 5 `uc 1 month 1 6 `uc 1 year 1 7 `uc 1 enabled 1 8 ]
+[v check_events@e e `*.30S167  1 a 1 13 ]
+}
+} 0
+"86
+[v _save_events save_events `(v  1 s 1 save_events ]
+{
+[v save_events@i i `uc  1 a 1 6 ]
+[v save_events@a a `uc  1 a 1 7 ]
+} 0
+"14 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\eeprom24.c
+[v _eeprom24_write eeprom24_write `(v  1 e 1 0 ]
+{
+[v eeprom24_write@address address `uc  1 p 1 wreg ]
+[v eeprom24_write@value value `uc  1 p 1 3 ]
+[v eeprom24_write@address address `uc  1 p 1 5 ]
+"17
+} 1
+"27 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\i2c.c
+[v _i2c_write i2c_write `(v  1 e 1 0 ]
+{
+[v i2c_write@data data `uc  1 p 1 wreg ]
+"29
+[v i2c_write@data data `uc  1 p 1 2 ]
+"34
+} 1
+"26
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+{
+} 0
+"24
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+{
+} 0
+"6
+[v _wait_ssp wait_ssp `(v  1 s 1 wait_ssp ]
+{
+"8
+[v wait_ssp@timeout timeout `ui  1 a 2 0 ]
+"11
+} 0
+"134 C:\Users\prane\OneDrive\Desktop\mc_cdash\digital_alarm\v6\digi_clk_X2_clock_and_events_fixed\digi_clk.X\m.c
+[v _event_matches_today event_matches_today `(uc  1 s 1 event_matches_today ]
+{
+[s S167 . 9 `uc 1 hour 1 0 `uc 1 minute 1 1 `uc 1 duration 1 2 `uc 1 type 1 3 `uc 1 weekday 1 4 `uc 1 day 1 5 `uc 1 month 1 6 `uc 1 year 1 7 `uc 1 enabled 1 8 ]
+[v event_matches_today@e e `*.30S167  1 p 1 0 ]
+} 0
+"65
+[v _advance_clock_one_second advance_clock_one_second `(v  1 s 1 advance_clock_one_second ]
+{
+"84
+} 0
+"47
+[v _days_in_month days_in_month `(uc  1 s 1 days_in_month ]
+{
+[v days_in_month@m m `uc  1 p 1 wreg ]
+[v days_in_month@y y `uc  1 p 1 2 ]
+[v days_in_month@d d `C[12]uc  1 s 12 d ]
+[v days_in_month@m m `uc  1 p 1 5 ]
+} 1
+"46
+[v _leap_year leap_year `(uc  1 s 1 leap_year ]
+{
+[v leap_year@yy yy `uc  1 p 1 wreg ]
+[v leap_year@yy yy `uc  1 p 1 1 ]
+} 1
+"7 C:\Program Files\Microchip\xc8\v4.00\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+[v ___lwmod@dividend dividend `ui  1 p 2 0 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 2 ]
+"10
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"25
+} 0
